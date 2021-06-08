@@ -20,7 +20,7 @@ a {
   text-decoration:none;
   }
 
- .title{
+ .title-one{
   color:red;
   font: size 30px;
 }
@@ -28,7 +28,7 @@ a {
 p:hover{
   color:rgba(255,0,0,.5);
 }
-.arriba{
+.stranger{
   background:black;
   width:100vw;
   /* margin: 10px; */
