@@ -55,11 +55,10 @@ a {
 
  .browser-two{
   background-image: linear-gradient(to top,red, blue,transparent);
-  display:inline-block;
+  /* display:inline-block; */
 
    position:absolute;
-   right:10px;
-   bottom:100px;
+   left:12%;
    /* z-index:4; */
    /*top left bottom right z-index
    top:50px; */
