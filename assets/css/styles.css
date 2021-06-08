@@ -10,6 +10,12 @@ header {
   font-size:20px;
 }
 
+main{
+  border:5px solid yellow;
+  width:624px;
+  margin:auto;
+}
+
  h1 {
   border:3px solid red;
   font-size: 60px;
