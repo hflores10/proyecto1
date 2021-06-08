@@ -51,6 +51,7 @@ a {
   /* border:40px solid purple; */
   background-image: linear-gradient(to top,red, blue,transparent);
   border-bottom:1px solid blue;
+  display:block;
 
 
  }
@@ -67,6 +68,14 @@ p:hover{
   background:black;
   width:100vw;
   /* margin: 10px; */
+}
+
+h1::before{
+  content:counter(titleList);
+}
+
+h1::after{
+  content:'-'
 }
 
 
