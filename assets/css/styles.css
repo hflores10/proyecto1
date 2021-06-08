@@ -49,7 +49,8 @@ a {
 
  .browser-two{
   /* border:40px solid purple; */
-  background-image: linear-gradient(to top,red, blue);
+  background-image: linear-gradient(to top,red, blue,transparent);
+  border-bottom:1px solid blue;
 
 
  }
