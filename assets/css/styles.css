@@ -1,23 +1,23 @@
 body {
-  border:3px solid red;
+  /* border:3px solid red; */
   color:black;
   margin:0;
  }
 
 header {
-  border:3px solid green;
+  /* border:3px solid green; */
   font-size:20px;
-  background-color:blue;
+  background:blue;
 
 }
 
  h1 {
-  border:3px solid red;
+  /* border:3px solid red; */
   font-size: 60px;
  }
 
 a {
-  border:3px solid green;
+  /* border:3px solid green; */
   text-decoration:none;
   }
 
@@ -25,12 +25,12 @@ a {
 
 
 .main {
-  border:5px solid yellow;
+  /* border:5px solid yellow; */
   background: blue;
 }
 
 .wrapper {
-  border:3px solid purple;
+  /* border:3px solid purple; */
   width:624px;
   margin:auto;
 }
@@ -44,7 +44,14 @@ a {
   background-image:url('../images/hero-one.jpg') ;
   background-repeat: no-repeat;
   background-position:center;
-  height:57px;
+  height:70px;
+ }
+
+ .browser-two{
+  /* border:40px solid purple; */
+  background-image: linear-gradient(to top,red, blue);
+
+
  }
 
  .title-one{
