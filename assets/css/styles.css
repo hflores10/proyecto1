@@ -1,6 +1,5 @@
 body {
   border:3px solid red;
-  background:white;
   color:black;
   margin:0;
  }
@@ -8,14 +7,8 @@ body {
 header {
   border:3px solid green;
   font-size:20px;
-  background:greenyellow;
-}
+  background-color:blue;
 
-main{
-  border:5px solid yellow;
-  width:624px;
-  margin:auto;
-  background: blue;
 }
 
  h1 {
@@ -27,6 +20,32 @@ a {
   border:3px solid green;
   text-decoration:none;
   }
+
+
+
+
+.main {
+  border:5px solid yellow;
+  background: blue;
+}
+
+.wrapper {
+  border:3px solid purple;
+  width:624px;
+  margin:auto;
+}
+
+.main-content {
+  padding:20px;
+}
+
+.hero-one{
+  background-color: black;
+  background-image:url('../images/hero-one.jpg') ;
+  background-repeat: no-repeat;
+  background-position:center;
+  height:57px;
+ }
 
  .title-one{
   color:red;
