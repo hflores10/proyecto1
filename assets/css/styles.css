@@ -1,13 +1,41 @@
 body {
   /* border:3px solid red; */
   color:black;
+  background:white;
   margin:0;
+  /* position:relative; */
  }
 
 header {
   /* border:3px solid green; */
-  font-size:20px;
-  background:blue;
+  background-image: linear-gradient(to top,red, blue,transparent);
+
+
+
+
+}
+.body-div-content{
+background-image: linear-gradient(to top,red, blue,transparent);
+
+ }
+.header-content1{
+position:fixed;
+top:60px;
+z-index:1;
+}
+.header-content{
+  background:black;
+  height:57px;
+  width:100%;
+  background-image:url('../images/hero-one.jpg') ;
+  background-repeat: no-repeat;
+  background-position:center;
+  position: -webkit-sticky;
+  position:sticky;
+  top:0;
+  z-index:1;
+
+
 
 }
 
@@ -22,13 +50,14 @@ a {
   }
 
 .debug{
-  outline:10px solid black ;
+  outline:10px solid yellow ;
 }
 
 
 .main {
   /* border:5px solid yellow; */
   background: blue;
+
 }
 
 .wrapper {
@@ -45,31 +74,9 @@ a {
   padding:20px;
 }
 
-.hero-one{
-  background-color: black;
-  background-image:url('../images/hero-one.jpg') ;
-  background-repeat: no-repeat;
-  background-position:center;
-  height:70px;
- }
-
- .browser-two{
-  background-image: linear-gradient(to top,red, blue,transparent);
-  /* display:inline-block; */
-
-   position:absolute;
-   left:12%;
-   /* z-index:4; */
-   /*top left bottom right z-index
-   top:50px; */
-  /* border:15px solid purple; */
-  /* border-bottom:1px solid blue; */
-  /* margin-bottom:-19px; */
 
 
 
-
- }
 
  .title-one{
   color:red;
