@@ -6,11 +6,6 @@ body {
   /* position:relative; */
  }
 
-/* header {
-  border:3px solid green;
-  background-image: linear-gradient(to top,red, blue,transparent);
-} */
-
 .body-div-content{
 background-image: linear-gradient(to top,red, blue,transparent);
  }
