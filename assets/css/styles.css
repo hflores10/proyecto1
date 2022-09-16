@@ -1,5 +1,11 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  /* border:3px solid red; */
+  
   color:black;
   background:white;
   position:relative;
@@ -8,7 +14,7 @@ body {
    }
 
 .body-div-content{
-background-image: linear-gradient(to top,red, blue,transparent);
+  background-image: linear-gradient(top,red, blue,transparent);
  }
 
  .header-content-1{
