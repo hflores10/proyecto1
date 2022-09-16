@@ -40,16 +40,10 @@ border:1px solid black;
 }
 .header{
 /* border:20px solid yellow; */
-  border:3px solid beige;
+/*  border:3px solid beige; */
 
   display:block;
   position:sticky;
-
-
-
-
-
-
 }
 header li{
   margin-bottom: 16px;
@@ -87,7 +81,7 @@ a {
 .main {
   /* border:10px solid green; */
   background:rgb(66, 106, 158);
-  margin:3px;
+  margin:0;
 
   /* position:relative;
   top:1px; */
@@ -96,7 +90,7 @@ a {
   }
 
 .wrapper {
-  border:3px solid green;
+  /* border:3px solid green;*/
   width:624px;
   margin:auto;
 
