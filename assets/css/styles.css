@@ -3,150 +3,108 @@
   padding: 0;
   margin: 0;
 }
+html {
+  font-size: 62.5%;
+}
 
 body {
-  
-  color:black;
-  background:white;
-  position:relative;
-  margin:0;
-
-   }
-
-.body-div-content{
+  /* border:10px solid green; */
+  background:rgb(66, 106, 158);
+  margin:3px;
   background-image: linear-gradient(top,red, blue,transparent);
- }
-
- .header-content-1{
-  position:relative;
-
-
- }
-
- .fixid{
-  position:fixed;
-  top:0;
-
- }
-.header-content-2 {
-border:1px solid black;
-  position:absolute;
-  top:64px;
-  left:-188px;
-  width:20px;
-
-
+  position: relative;
 
 }
-.header{
-/* border:20px solid yellow; */
-/*  border:3px solid beige; */
 
-  display:block;
-  position:sticky;
+.section1-title-one {
+  font-size:4rem;
+  text-align: center;
+  color: orange;
+  margin: 2rem 0rem;
 }
-header li{
-  margin-bottom: 16px;
+.section1-content {
+  font-size: 2.5rem;
+  text-align: center;
+  color: yellowgreen;
+}
+.article1-img div {
+  margin: 8rem 0rem;
+  text-align: center;
+  /* border: 1px solid black; */
+ 
 }
 
-.header-content{
-  /* border:3px solid orange; */
-  background:black;
-  height:57px;
+.article1-main {
+  margin: 8rem 0rem;
+  text-align: center;
+  font-size: 4rem;
+  color:orange;
+}
+.article1-main_nav li{
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 2rem 0rem;
+
+}
+
+.article1-main_nav a {
+  color: orange;
+  text-decoration: none;
+}
+
+.article1-img div > img {
+  /* border-radius: 3rem; 
+  border: 0.3rem solid red; */
+  border-radius: 35%;
+  
+}
+.banner {
+  /* background:black; */
+  height:5.7rem;
   width:100%;
   background-image:url('../images/hero-one.jpg') ;
   background-repeat: no-repeat;
   background-position:center;
-  position: -webkit-sticky;
-  position:sticky;
-  top:0;
-  z-index:1;
+  position:fixed;
+  top: 0rem;
+  z-index: 1;
+  
+}
+._position {
+ position: relative;
+ text-align: center;
+ top: 0.2rem;
+ /*
+ left: 650px;
+ 
+ */
+}
+.test_1{
+  position: fixed;
+  left:40.5rem;
+}
+.menu-nav__elements {
+  text-align: center;
+  margin-top: 5.7rem;
+
+}
+.menu-nav__elements li {
+  display: inline-block;
+  /* text-align: center; */
+  /* background-color: orangered; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 2rem 0rem;
+  /*El contenedor de todos los nombres */
 }
 
- h1 {
-  /* border:3px solid red; */
-  font-size: 60px;
- }
-
-a {
-  /* border:3px solid green; */
-  text-decoration:none;
+.menu-nav__elements li > a {
+    color: white;
+    text-decoration:none;
+    font-size: 2.5rem;
+    
   }
-
-.debug{
-  outline:1px solid yellow ;
-}
-
-
-.main {
-  /* border:10px solid green; */
-  background:rgb(66, 106, 158);
-  margin:0;
-
-  /* position:relative;
-  top:1px; */
-
-
-  }
-
-.wrapper {
-  /* border:3px solid green;*/
-  width:624px;
-  margin:auto;
-
-
-}
-
-.main-content {
-  border:3px solid pink;
-  width:600px;
-  margin:auto;
-  block-size: border-box;
-  padding:10px;
-
-}
-
-.section-content{
-
-}
- .title-one{
-  color:red;
-  font: size 30px;
-}
-
-p:hover{
-  color:rgba(255,0,0,.5);
-}
-.stranger{
-  background:black;
-  width:100vw;
-  /* margin: 10px; */
-}
-
-h1{
-  counter-increment: titleList;
-}
-
-h1::before{
-  content:counter(titleList)'. ';
-}
-
-h1::after{
-  content:'-'
-}
-
-.slider{
-  border:2px solid gray;
-
-}
-.slider-container {
-  border:2px solid brown;
-  display:block;
-  /* block-size: 100px; */
-  overflow:auto;
-  white-space:nowrap;
-  scroll-behavior: smooth;
-}
 
 .video {
   border:1px solid goldenrod;
@@ -156,4 +114,8 @@ h1::after{
   height:auto;
   aspect-ratio:16/9;
 
+}
+
+input {
+  margin-top: 15.5rem;
 }
